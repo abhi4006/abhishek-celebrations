@@ -301,8 +301,16 @@ function WeddingPage() {
         <div className="schedule-item">
           <Clock3 aria-hidden="true" />
           <div>
+            <span>घुड़चढ़ी</span>
+            <strong>सायं 5:00 बजे</strong>
+          </div>
+        </div>
+        <i aria-hidden="true" />
+        <div className="schedule-item">
+          <Clock3 aria-hidden="true" />
+          <div>
             <span>बारात प्रस्थान</span>
-            <strong>सायं 7:00 बजे से</strong>
+            <strong>सायं 6:00 बजे</strong>
           </div>
         </div>
         <i aria-hidden="true" />
@@ -314,10 +322,6 @@ function WeddingPage() {
           </div>
         </div>
       </motion.section>
-
-      <motion.p variants={pageItem} className="vidai">
-        विदाई • 04 जुलाई 2026 • तारों की छाँव में
-      </motion.p>
 
       <motion.div variants={pageItem}>
         <VenueLink
